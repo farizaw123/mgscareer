@@ -1,0 +1,104 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 25%;
+    color: black;
+    font-family: Poppins;
+    padding: 70px 0;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    margin: 30px 0;
+
+}
+
+.col1{
+    width: 58% ;
+}
+
+.col1 a{
+    text-decoration: none;
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    background: linear-gradient(to left, #4A7CDE, #15ACCE);
+    padding: 15px 15px;
+    color: white;
+    font-size: 17px;
+}
+
+.col2{
+    color: #4A7CDE;
+    width: 25%;
+    font-size: 20px;
+}
+
+.col2 span{
+    margin: 0 20px;
+}
+
+.col2 span.nama{
+    margin: 0;
+    font-size: 17px;
+}
+
+.search{
+    display: flex;
+    background-color: white;
+    width: 450px;
+    height: 48px;
+    padding: 10px 20px;
+    color: #ADADAD;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+form{
+    display: flex;
+}
+
+form .search input{
+    width: 260px;
+    border: none;
+    margin: 0 20px;
+}
+
+form .search input:focus{
+   outline: none;
+}
+
+.kategory1, .kategory2{
+    display: flex;
+    background-color: white;
+    width: 300px;
+    height: 48px;
+    padding: 10px 20px;
+    color: #ADADAD;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+form .kategory1 select, form .kategory2 select{
+    width: 240px;
+    border: none;
+    margin: 0 20px;
+}
+
+form .kategory1 select, form .kategory2 select{
+    outline: none;
+}
+
+form button{
+    width: 130px;
+    height: 48px;
+    background: linear-gradient(to left, #4A7CDE, #15ACCE);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+
+
